@@ -1,0 +1,8 @@
+resources:
+- manager.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: controller
+  newName: 172.25.254.23:30002/hhj/ai-diagnostic-operator
+  newTag: v1

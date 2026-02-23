@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- diagnostic_v1_poddiagnosis.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples
